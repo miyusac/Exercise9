@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #FF9A4B;
+}
+
+.main-visual {
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.main-visual1 {
+    width: 300px;
+    margin-right: 30px;
+    background-color: #EEEEEE;
+    position: static;
+}
+
+.main-visual1:last-child {
+    margin-right: 0;
+}
+
+.main-visual1-content1 {
+    width: 60px;
+    height:30px;
+    background-color: #FF9A4B;
+    position:absolute;
+}
+
+.main-visual1-text1 {
+    text-align: center;
+    line-height: 30px;
+    color: #EEEEEE;
+
+}
+
+.main-visual1-content2 {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.main-visual2-content2 {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow02.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.main-visual3-content2 {
+    width: 280px;
+    height: 150px;
+    background-image: url(img/flow03.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+.main-visual1-content3 {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-visual1-content3 h {
+    margin-bottom: 5px;
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #AAAAAA;
+}
